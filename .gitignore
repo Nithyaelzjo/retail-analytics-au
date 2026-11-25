@@ -1,0 +1,18 @@
+# Terraform: state and variables can hold passwords
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+crash.log
+# Python / Docker
+__pycache__/
+*.pyc
+.env
+venv/
+# Data and credentials
+*.csv
+*.parquet
+*.backup
+.aws/
+*.pem
